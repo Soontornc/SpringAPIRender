@@ -12,9 +12,9 @@ COPY . .
 RUN mvn clean package -DskipTests
 
 # ตั้งค่า Environment Variables
-ENV SPRING_DATASOURCE_URL=jdbc:postgresql://dpg-crbl6jtsvqrc73f20010-a.oregon-postgres.render.com:5432/springstoredb
+ENV SPRING_DATASOURCE_URL=jdbc:postgresql://dpg-crbl6jtsvqrc73f20010-a.oregon-postgres.render.com:5432/gosampledb_ps0c
 ENV SPRING_DATASOURCE_USERNAME=gosampledb_user
-ENV SPRING_DATASOURCE_PASSWORD=gosampledb_user
+ENV SPRING_DATASOURCE_PASSWORD=go3D2GxzlG6w84oHe3ZaFUkzliC7FuBG4
 
 # กำหนด port ที่เราจะใช้
 EXPOSE 8080
