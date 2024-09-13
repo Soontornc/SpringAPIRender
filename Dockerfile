@@ -12,7 +12,7 @@ COPY . .
 RUN mvn clean package -DskipTests
 
 # ตั้งค่า Environment Variables
-ENV SPRING_DATASOURCE_URL=jdbc:postgresql://dpg-crbl6jtsvqrc73f20010-a.oregon-postgres.render.com:5432/springstoredb_rghy
+ENV SPRING_DATASOURCE_URL=jdbc:postgresql://dpg-crhphejv2p9s73be3ikg-a.singapore-postgres.render.com:5432/springstoredb_rghy
 ENV SPRING_DATASOURCE_USERNAME=soontorn
 ENV SPRING_DATASOURCE_PASSWORD=evqE2OBk96GbipjVjsasfnyiy1nvVLTY
 
